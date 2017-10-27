@@ -15,6 +15,9 @@
 		32E4AE8F1FA30B2700E9CEF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E4AE8E1FA30B2700E9CEF1 /* main.m */; };
 		32E4AE991FA30B2700E9CEF1 /* NSNotificationCenterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E4AE981FA30B2700E9CEF1 /* NSNotificationCenterDemoTests.m */; };
 		32E4AEA41FA30B2700E9CEF1 /* NSNotificationCenterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E4AEA31FA30B2700E9CEF1 /* NSNotificationCenterDemoUITests.m */; };
+		32E4AEB31FA30D8700E9CEF1 /* LJNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E4AEB21FA30D8700E9CEF1 /* LJNotificationCenter.m */; };
+		32E4AEB61FA3127400E9CEF1 /* LJNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E4AEB51FA3127400E9CEF1 /* LJNotification.m */; };
+		32E4AEB91FA3231D00E9CEF1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E4AEB81FA3231D00E9CEF1 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		32E4AE9F1FA30B2700E9CEF1 /* NSNotificationCenterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSNotificationCenterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E4AEA31FA30B2700E9CEF1 /* NSNotificationCenterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNotificationCenterDemoUITests.m; sourceTree = "<group>"; };
 		32E4AEA51FA30B2700E9CEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E4AEB11FA30D8700E9CEF1 /* LJNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJNotificationCenter.h; sourceTree = "<group>"; };
+		32E4AEB21FA30D8700E9CEF1 /* LJNotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJNotificationCenter.m; sourceTree = "<group>"; };
+		32E4AEB41FA3127400E9CEF1 /* LJNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJNotification.h; sourceTree = "<group>"; };
+		32E4AEB51FA3127400E9CEF1 /* LJNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJNotification.m; sourceTree = "<group>"; };
+		32E4AEB71FA3231D00E9CEF1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		32E4AEB81FA3231D00E9CEF1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				32E4AE801FA30B2700E9CEF1 /* AppDelegate.m */,
 				32E4AE821FA30B2700E9CEF1 /* ViewController.h */,
 				32E4AE831FA30B2700E9CEF1 /* ViewController.m */,
+				32E4AEB71FA3231D00E9CEF1 /* SecondViewController.h */,
+				32E4AEB81FA3231D00E9CEF1 /* SecondViewController.m */,
+				32E4AEB41FA3127400E9CEF1 /* LJNotification.h */,
+				32E4AEB51FA3127400E9CEF1 /* LJNotification.m */,
+				32E4AEB11FA30D8700E9CEF1 /* LJNotificationCenter.h */,
+				32E4AEB21FA30D8700E9CEF1 /* LJNotificationCenter.m */,
 				32E4AE851FA30B2700E9CEF1 /* Main.storyboard */,
 				32E4AE881FA30B2700E9CEF1 /* Assets.xcassets */,
 				32E4AE8A1FA30B2700E9CEF1 /* LaunchScreen.storyboard */,
@@ -265,9 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E4AEB91FA3231D00E9CEF1 /* SecondViewController.m in Sources */,
 				32E4AE841FA30B2700E9CEF1 /* ViewController.m in Sources */,
 				32E4AE8F1FA30B2700E9CEF1 /* main.m in Sources */,
+				32E4AEB61FA3127400E9CEF1 /* LJNotification.m in Sources */,
 				32E4AE811FA30B2700E9CEF1 /* AppDelegate.m in Sources */,
+				32E4AEB31FA30D8700E9CEF1 /* LJNotificationCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
